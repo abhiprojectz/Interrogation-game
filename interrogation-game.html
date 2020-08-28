@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Interrogation game in javascript!</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta  name='keywords' content='interrogation game review
+interrogation games online
+interrogation game guide
+interrogation game free download
+interrogation game walkthrough
+interrogation game questions
+interrogation game steam
+interrogation game mattel
+interrogation game online
+la noire gage interrogation answers
+the interrogation game
+the game interrogation song
+interrogation board game
+bulletproof interrogation game
+interrogation drama game
+indefinite interrogation game endings
+esl interrogation game
+enhanced interrogation game
+game for interrogation
+interrogation improv game
+interrogation in game
+indefinite interrogation game
+indefinite interrogation game walkthrough
+interactive interrogation game
+interrogation game ps4
+interrogation game play store
+interrogation pc game
+interrogation party game
+robot interrogation game
+prison escape game interrogation room
+interrogation games
+interrogation games play online
+imitation game interrogation scene
+stickman interrogation game
+enhanced interrogation techniques game
+game theory interrogation
+interrogation video game
+vampire interrogation game
+interrogation game woman'>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+              <script src="https://cdn.jsdelivr.net/gh/abhiprojectz/alertia/dist/alertia.js"></script>
+              <script type="text/javascript" src='interro.js'></script>
+              <link rel="stylesheet" type="text/css" href="interro.css">
+        
+        
+    </head>
+    <body>
+
+<div class="container">
+    <div class="card">
+    
+    <div id="main">
+        <h1>Welcome!</h1>
+        
+        <br /><br />
+        <p>You were a  only person left in the  warzone and rest all were killed  so, we will ask you some questions & you need to be truthfull!</p><p>Else You will be given a punishment.</p>
+        <p>You need to remember thr answer which you selected first for a particular question & next time when the same question appears just select what you choosed before  correctly & be fast <b>Lets start our interrogation!</b></p>
+        <br />
+        <button onclick="play()">Play!</button> <button onclick="help()">About!</button> <br />
+        <h2>© Created by abhi</h2>
+    </div>
+    <div id="show">
+    <div id="info">
+    <b>Your response doesn't matched!</b>
+    <br />
+     You lied! previously we asked this to you <p id="note"></p> & you said to us this  <p id="finans"></p>"!
+     <br />
+</div>
+    <br />
+<div  class="field">Score: 0</div>
+ 
+        </b>
+        <br /><br />
+   <p id="th">Thanks for playing! :)</p>
+        
+    </div>
+    
+    
+  <div id="quiz">
+  <div id="score" class="field">Score: 0</div>
+
+  
+  <div id="question" class="field"></div>
+
+
+
+  <button id="answerA" onclick="answerAC()"></button>
+
+  <button id="answerB" onclick="answerBC()"></button>
+<br /><br />
+ 
+  <button id="answerC" onclick="answerCC()"></button>
+
+  
+  <button id="answerD" onclick="answerDC()"></button>
+  <br /><br />
+
+  <div id="progressBari">  <div id="progressBar"></div>
+</div>
+</div>
+</div></div>
+<br />
+      
+
+    </body>
+     
+
+       
+<script>
+    
+alertia("Welcome!  Play the game & share your scores in the comments!");
+
+ 
+ function help() {
+     
+     alertia(" This is a kind of memory game! ");
+ }
+ 
+ 
+var timer;
+function startTimer(duration, display) {
+    timer = duration;
+    
+    var minutes, seconds;
+    setInterval(function () {
+     
+        minutes = parseInt(timer / 60, 10)
+        seconds = parseInt(timer % 60, 10);
+
+        minutes = minutes < 10 ? "0" + minutes : minutes;
+        seconds = seconds < 10 ? "0" + seconds : seconds;
+
+        display.textContent = minutes + ":" + seconds;
+
+  var elementtt = seconds /10*100;
+        
+         document.getElementById('progressBar').style ="width:" + elementtt + "%";
+        
+        if (--timer < 0) {
+            timer = duration;
+            alert("You took too long to answer!");
+            over();
+        }
+    }, 1000);
+}
+
+function resetTimer() {
+  timer = 10 * 1;
+}
+
+function clear() {
+    
+    timer = 60*60;
+    
+}
+  function play() {
+    
+     
+     
+     $("#main").css({"display":"none"})
+     $("#quiz").css({"display":"block"})
+  
+    settimes = 10 * 1,
+        display = document.querySelector('#progressBar');
+    startTimer(settimes, display);
+    }
+
+</script>
+
+</html>
