@@ -48,9 +48,15 @@ interrogation game woman'>
               <script type="text/javascript" src='interro.js'></script>
               <link rel="stylesheet" type="text/css" href="interro.css">
         
+         <meta name="viewport" content="width=device-width, initial-scale=1"> 
+               <script src="https://kit.fontawesome.com/97cc306c60.js" crossorigin="anonymous"></script>
+        
         
     </head>
     <body>
+        
+          <button onclick="rell()"><i class="fas fa-sync-alt"></i></button>
+
 
 <div class="container">
     <div class="card">
@@ -116,7 +122,11 @@ interrogation game woman'>
     
 alertia("Welcome!  Play the game & share your scores in the comments!");
 
- 
+ function rell(){
+
+  window.location.reload();
+}
+    
  function help() {
      
      alertia(" This is a kind of memory game! ");
