@@ -8,43 +8,24 @@ quiz[3] = new Question("Which weapon you used?", "AK 47", "Knife", "Grenade", "n
 quiz[4] = new Question("Where were you born?", "Brazil", "England", "pakistan", "USA");
 quiz[5] = new Question("How many did you killed?", "75", "28", "0" ,"5");
 quiz[6] = new Question("How many sister do you have?", "6", "2", "10",  "9");
-
 quiz[7] = new Question("why did you clicked this code?" ,"i  don't know"  , "just to see" , "to like it", "why i tell you");
-
 quiz[8] = new Question("What is the name of your best friend?" , "Rahul", "rishi" ,"madhavi" , "i don't want to tell");
-
-
 quiz[9] = new Question("Do you accept that you killed innocent?" , "yes", "No" , "probably", "i cant tell"); 
-
-quiz[10] = new Question("Where were you at the time of incident?" , "at home", "at my gf home", "no-where" , "none of your bussiness");
-
-quiz[11] = new Question("Did you visited Lana's house yesturday?" ,"yes" , "no" , "i forgot", "went-outstation");
-
+quiz[10] = new Question("Where were you at the time of incident?" , "at home", "at my friends home", "no-where" , "none of your business");
+quiz[11] = new Question("Did you visited the victims house yesturday?" ,"yes" , "no" , "i forgot", "went-outstation");
 quiz[12] = new Question("Which is your native place?"  ,"India" , "japan" , "USA" , "Mars");
-
 quiz[13] = new Question("Which is your favorite fruit?", "apple" ,"banana" , "orange" ,"grapes");
-
 quiz[14] = new Question("where did you hide the key?" ,"under the bed" , "inside mouth" , "inside a box" , "i did not hided");
-
 quiz[15] = new Question("Do you like this game?","yes" , "No" , "Probably no" , "probably yes");
-
 quiz[16] = new Question("What was your motive?" ,"To kill the general", "To win the war","Not specific", "To escape from there");
-
 quiz[17] = new Question("how much do you eat? ","little","very much","can't tell","i think 100%");
-
-quiz[18] = new Question("how much do you fart?","little","loudly","slowly","smelly")
-
-quiz[19] = new Question("Suppose i made you choose ome out of fart & perfume?","i choose fart","both","perfume","fart smells")
-
+quiz[18] = new Question("Do you accept that you killed 25 people yesturday?","yes","no","yeah i killed 36 people","Data is incorrect")
+quiz[19] = new Question("A number multiplied by itself?","what you mean?","2","number doesnt exist","7")
 quiz[20] = new Question("What is 2+2?","2","3","4","6")
-
-
 quiz[21] = new Question("Pizza or banana","pizza","banana","both","pizza without pizza")
-
-quiz[22] = new Question("Are you smelly or stinky","stinky","smelly","both","cant say")
-
+quiz[22] = new Question("What will you choose?","apple","mango","banana","pineapple")
 quiz[23] = new Question("why did you kill your best friend?","to escape from him","he turned to be my enemy","its my choice","to save my time")
-
+quiz[24] = new Question("what will you not choose?", "mango","apple", "papaya", 'pineapple")
 
 var userans = [];
 var randomQuestion;
