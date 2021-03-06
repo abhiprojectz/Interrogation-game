@@ -25,7 +25,7 @@ quiz[20] = new Question("What is 2+2?","2","3","4","6")
 quiz[21] = new Question("Pizza or banana","pizza","banana","both","pizza without pizza")
 quiz[22] = new Question("What will you choose?","apple","mango","banana","pineapple")
 quiz[23] = new Question("why did you kill your best friend?","to escape from him","he turned to be my enemy","its my choice","to save my time")
-quiz[24] = new Question("what will you not choose?", "mango","apple", "papaya", 'pineapple")
+quiz[24] = new Question("what will you not choose?", "mango","apple", "papaya", "pineapple")
 
 var userans = [];
 var randomQuestion;
